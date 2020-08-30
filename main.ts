@@ -19,6 +19,8 @@ input.onButtonPressed(Button.AB, function () {
         `)
     pins.servoWritePin(AnalogPin.P2, 90)
     pins.servoWritePin(AnalogPin.P1, 90)
+    basic.pause(2000)
+    basic.clearScreen()
 })
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
